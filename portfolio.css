@@ -4,13 +4,8 @@
 	padding: 0;
 }
 
-/*have a huge cool looking background image.
-	Also, make sure I make a fixed button that travels
-	along the page to navigate back to the top.*/
-
 body, html {
 	font-family: verdana, sans-serif;
-	height: 3000px;
 }
 
 #welcome-section {
@@ -108,4 +103,28 @@ nav ul a {
 
 .project-tile div {
 	padding-top: 15px;
+}
+
+#footer {
+	margin-top: 20vh;
+	width: 100%;
+	height: 20vh;
+	background-color: lightgreen;
+}
+
+#footer img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	width: 5vw;
+	border: 2px solid lightblue;
+	border-radius: 50%;
+}
+
+#freeCodeCamp {
+	float: left;
+}
+
+#GitHub {
+	float: right;
 }
