@@ -31,6 +31,14 @@ nav ul li {
 	height: 5vh;
 	padding-top: 1vh;
 }
+@media screen and (max-width: 500px) {
+	nav ul li {
+		width: 30vw;
+		height: 10vw;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+}
 
 nav ul li:hover {
 	color: #22313F;
@@ -72,6 +80,15 @@ nav ul a {
 	grid-row-gap: 125px;
 	justify-content: center;
 }
+@media screen and (max-width: 500px) {
+	#project-grid {
+		display: grid;
+		grid-template-columns: 80vw;
+		grid-template-rows: repeat(6, 300px);
+		grid-row-gap: 30px;
+		justify-content: center;
+	}
+}
 
 .project-tile {
 	text-align: center;
@@ -111,6 +128,12 @@ nav ul a {
 	height: 20vh;
 	background-color: lightgreen;
 }
+@media screen and (max-width: 500px) {
+	#footer {
+		margin-top: 0;
+		height: 18vh;
+	}
+}
 
 #footer img {
 	display: block;
@@ -120,6 +143,11 @@ nav ul a {
 	border: 2px solid lightblue;
 	border-radius: 50%;
 }
+@media screen and (max-width: 500px) {
+	#footer img {
+		width: 20vw;
+	}
+}
 
 #footer-links {
 	width: 30vw;
@@ -127,6 +155,15 @@ nav ul a {
 	margin: auto;
 	padding-top: 45px;
 	padding-left: 45px;
+}
+@media screen and (max-width: 500px) {
+	#footer-links {
+		width: 90vw;
+		height: auto;
+		margin: auto;
+		padding-top: 30px;
+		padding-left: 30px;
+	}
 }
 
 #freeCodeCamp {
@@ -141,6 +178,11 @@ nav ul a {
 
 #linkedIn {
 	float: left;
+}
+@media screen and (max-width: 500px) {
+	#freeCodeCamp, #GitHub {
+		margin-right: 30px;
+	}
 }
 
 #footer-links img:hover {
