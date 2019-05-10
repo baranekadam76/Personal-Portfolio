@@ -121,10 +121,74 @@ nav ul a {
 	border-radius: 50%;
 }
 
+#footer-links {
+	width: 30vw;
+	height: auto;
+	margin: auto;
+	padding-top: 45px;
+	padding-left: 45px;
+}
+
 #freeCodeCamp {
 	float: left;
+	margin-right: 50px;
 }
 
 #GitHub {
-	float: right;
+	float: left;
+	margin-right: 50px;
 }
+
+#linkedIn {
+	float: left;
+}
+
+#footer-links img:hover {
+	animation-name: footerHover;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+@keyframes footerHover {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: .5;
+	}
+}
+
+
+
+
+/* Really cool test idea code for footer links
+
+#test {
+	width: 10vw;
+	border: 1px solid black;
+}
+
+#text:hover {
+	visibility: hidden;
+}
+
+#test:hover {
+	animation-name: test;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+}
+@keyframes test {
+	0%{
+		border: 1px solid black;
+	}
+	100% {
+		width: 5vw;
+		height: 100px;
+		border: 2px solid lightblue;
+		background-image: url("images/freeCodeCamp_logo.jpg");
+		background-size: cover;
+		border-radius: 50%;
+	}
+}
+
+*/
